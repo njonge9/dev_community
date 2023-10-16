@@ -151,6 +151,7 @@ GEM
     nokogiri (1.15.4-x86_64-linux)
       racc (~> 1.4)
     orm_adapter (0.5.0)
+    pg (1.5.3)
     psych (5.1.1)
       stringio
     public_suffix (5.0.3)
@@ -215,7 +216,6 @@ GEM
       actionpack (>= 5.2)
       activesupport (>= 5.2)
       sprockets (>= 3.0.0)
-    sqlite3 (1.6.7-x86_64-linux)
     stimulus-rails (1.3.0)
       railties (>= 6.0.0)
     stringio (3.0.8)
@@ -255,13 +255,13 @@ DEPENDENCIES
   jbuilder
   jsbundling-rails
   kaminari
+  pg (~> 1.1)
   puma (~> 5.0)
   rails (~> 7.0.8)
   ransack
   redis (~> 4.0)
   selenium-webdriver
   sprockets-rails
-  sqlite3 (~> 1.4)
   stimulus-rails
   turbo-rails
   tzinfo-data
