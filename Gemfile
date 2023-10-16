@@ -73,3 +73,9 @@ group :test do
   gem "selenium-webdriver"
 
 end
+
+gem "faker"
+gem "ransack"
+gem "devise"
+gem "kaminari"
+
