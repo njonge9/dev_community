@@ -12,4 +12,8 @@ class User < ApplicationRecord
     "Seniour Java Developer",
     "Seniour Frontend Developer"
   ].freeze
+
+  def name
+    "#{first_name} #{last_name}".strip
+  end
 end
